@@ -44,11 +44,21 @@ airports = {
     'IAD': 'Dulles',
 }
 
-
-
 colors = ['red', 'green', 'purple', 'orange', 'brown',
           'black', 'olive', 'navy', 'white', 'black',
           'pink', 'chartreuse']
 
+cheeses = [
+    'Red Leicester', 'Tilsit', 'Caerphilly', 'Bel Paese', 'Red Windsor',
+    'Stilton', 'Gruyere', 'Emmental', 'Norwegian Jarlsberger', 'Liptauer',
+    'Lancashire', 'White Stilton', 'Danish Blue', 'Double Gloucester',
+    'Cheshire', 'Dorset Blue Vinney', 'Brie', 'Roquefort', "Pont-l'Eveque",
+    'Port Salut', 'Savoyard', 'Saint-Paulin', "Carre-de-L'Est", 'Boursin',
+    'Bresse-Bleue', 'Perle de Champagne', 'Camembert', 'Gouda', 'Edam',
+    'Caithness', 'Smoked Austrian', 'Sage Derby', 'Wensleydale', 'Gorgonzola',
+    'Parmesan', 'Mozzarella', 'Pippo Creme', 'Danish Fimboe',
+    "Czechoslovakian Sheep's Milk Cheese", "Venezuelan Beaver Cheese",
+    "Cheddar", "Ilchester", "Limburger"
+]
 
 

@@ -74,5 +74,58 @@ for char in s:
     print(char.upper())
 print()
 
+# iterables: str bytes list tuple set dict <generator>
 
+
+colors = ['red', 'purple', 'blue', 'orange', 'mauve', 'ecru']
+nums = [800, 80, 1000, 32, 255, 400, 5, 5000]
+
+print(len(colors), min(colors), max(colors), sorted(colors))
+print(len(nums), min(nums), max(nums), sorted(nums), sum(nums))
+print()
+
+for i, color in enumerate(colors):
+    print(i, color)
+print()
+print(list(enumerate(colors)))
+
+e_colors = enumerate(colors)
+# print(len(e_colors))
+# print(e_colors[0])
+
+for i, color in e_colors:
+    print(i, color)
+
+rcolors = reversed(colors)
+print(rcolors)
+for color in rcolors:
+    print(color)
+print()
+
+r = range(10)
+print(r)
+for i in r:
+    print("Wombat!")
+print()
+
+# range(stop)  range(start, stop) range(start, stop, step)
+
+for i in range(1, 6):
+    print(i, "robot")
+print()
+
+e = enumerate(colors)
+wombat1 = e  # alias
+wombat1 = e
+list1 = list(e)  # consume
+list2 = list(e)
+print(list1)
+print(list2)
+
+e = enumerate(colors)
+x, y, *z  = e  # unpack
+print(x)
+print(y)
+print(z)
+print(list(e))
 
